@@ -9,3 +9,6 @@ new MyMouse({
    color: '#00ffff' // 移到黑色元素所展示颜色
 })
 ```
+## compatibility
+IE11无颜色混合效果；
+IE10及以下不支持；
