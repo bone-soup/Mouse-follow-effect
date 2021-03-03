@@ -79,7 +79,7 @@
       });
     },
 		
-moreBinding:function (obj) {
+    moreBinding:function (obj) {
 	var dom = document.getElementById('myMouse');
 	var domText = document.getElementById('myMouseText');
 	var iMouseDoms = document.getElementsByClassName(obj.moreClass);
@@ -95,7 +95,7 @@ moreBinding:function (obj) {
 			domText.setAttribute('style','opacity:0;')
 		}
 	});
-},
+    },
 		
 
     updateLocation: function(e, obj) {
